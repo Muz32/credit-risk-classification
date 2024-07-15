@@ -32,7 +32,7 @@ Key insights from the classification report include the precision and recall sco
 - **Recall: 0.91** - Of all the high-risk loans, 91% were correctly identified.
 
 ### Overall Performance Metrics:
-- **Accuracy**: 0.99** - The overall accuracy of the model, indicating that 99% of all predictions were correct.
+- **Accuracy: 0.99** - The overall accuracy of the model, indicating that 99% of all predictions were correct.
 - **Weighted Average**:
   - **Precision: 0.99** - Precision weighted by the number of true instances for each class/label.
   - **Recall: 0.99** - Recall weighted by the number of true instances for each class/label.
