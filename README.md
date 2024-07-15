@@ -1,7 +1,7 @@
 # credit-risk-classification
 
 ## Overview of the Analysis
-In this analysis, a logistic regression machine learning model was used to predict the creditworthiness of borrowers. Historical lending data was employed to build, train, and test the model. The lending data includes the following features:
+In this analysis, a logistic regression machine learning model was used to predict the creditworthiness of borrowers. Historical lending data was used to build, train, and test the model. The lending data includes the following features:
 - **loan_size**: The amount of the loan given to the borrower.
 - **interest_rate**: The percentage of interest charged on the loan.
 - **borrower_income**: The annual income of the borrower.
@@ -32,11 +32,10 @@ Key insights from the classification report include the precision and recall sco
 - **Recall: 0.91** - Of all the high-risk loans, 91% were correctly identified.
 
 ### Overall Performance Metrics:
-- **Overall Accuracy**:
-  - **Accuracy: 0.99** - The overall accuracy of the model, indicating that 99% of all predictions were correct.
+- **Accuracy**: 0.99** - The overall accuracy of the model, indicating that 99% of all predictions were correct.
 - **Weighted Average**:
-  - **Precision: 0.99** - Precision weighted by the number of true instances for each label.
-  - **Recall: 0.99** - Recall weighted by the number of true instances for each label.
+  - **Precision: 0.99** - Precision weighted by the number of true instances for each class/label.
+  - **Recall: 0.99** - Recall weighted by the number of true instances for each class/label.
 
 ### Confusion Matrix
 The confusion matrix provides the following information:
@@ -46,13 +45,13 @@ The confusion matrix provides the following information:
 - **True Positives (TP): 563** - These are high-risk loans correctly predicted as high-risk.
 
 ## Summary
-The overall accuracy of the model is immensely high at a score of 0.99. This signifies that the model correctly classifies almost all of the loans.
+The overall **accuracy** of the model is immensely high at a score of 0.99. This signifies that the model correctly classifies almost all of the loans.
 
-When looking at the individual class scores for identifying healthy loans, the model performs excellently, with precision and recall scores both close to 1.00.
+When looking at the individual class scores for identifying **healthy loans**, the model performs excellently, with precision and recall scores both close to 1.00.
 
-For identifying high-risk loans, the model also performs well, with a good precision of 0.85 and a recall of 0.91. However, there is still some room for improvement, especially in reducing the false positives (102) and false negatives (56).
+For identifying **high-risk loans**, the model also performs well, with a good precision of 0.85 and a recall of 0.91.However, there is still scope for further refinement, especially in reducing the false positives (102) and false negatives (56).
 
-The weighted average metrics are close to 1.00, suggesting that the model handles the imbalance between classes well, given that there are many more healthy loans than high-risk loans.
+The **weighted average** metrics are close to 1.00, suggesting that the **model handles the imbalance between classes well**, given that there are many more healthy loans than high-risk loans.
 
 In light of the above, it is deduced that the model performs exceptionally well in predicting the creditworthiness of new borrowers.  **It is recommended that the trained logistic regression model be used to help in ascertaining whether loans to new borrowers should be approved or rejected.**
 
