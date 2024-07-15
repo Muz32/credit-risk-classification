@@ -46,7 +46,12 @@ The confusion matrix provides the following information:
 - **True Positives (TP): 563** - These are high-risk loans correctly predicted as high-risk.
 
 ## Summary
-The overall accuracy of the model is immensely high at a score of 0.99. This signifies that the model correctly classifies almost all of the loans correctly.
-Looking at the individual class scores for identifying healthy loans, it is noted that the model performs excellently, with high precision and recall scores which are both close to 1.00.
-On the other hand, the model also performs well for identifying high-risk loans, with good precision (0.85) and recall (0.91) scores. However, there is still some room for improvement, especially in reducing the false positives (102) and false negatives (56). The weighted average metrics are close to 1.00, suggesting the model handles the imbalance between classes well, given that there are many more healthy loans than high-risk loans.
-In light of the above, it is deduced that the model performs exceptionally in predicting the creditworthiness of new borrowers. **It is recommended that the trained logistic regression model be used to help in ascertaining whether loans to new borrowers should be approved or rejected.**
+The overall accuracy of the model is immensely high at a score of 0.99. This signifies that the model correctly classifies almost all of the loans.
+
+When looking at the individual class scores for identifying healthy loans, the model performs excellently, with precision and recall scores both close to 1.00.
+
+For identifying high-risk loans, the model also performs well, with a good precision of 0.85 and a recall of 0.91. However, there is still some room for improvement, especially in reducing the false positives (102) and false negatives (56).
+
+The weighted average metrics are close to 1.00, suggesting that the model handles the imbalance between classes well, given that there are many more healthy loans than high-risk loans.
+
+In light of the above, it is deduced that the model performs exceptionally well in predicting the creditworthiness of new borrowers.  **It is recommended that the trained logistic regression model be used to help in ascertaining whether loans to new borrowers should be approved or rejected.**
