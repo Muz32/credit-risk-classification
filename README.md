@@ -1,7 +1,7 @@
 # credit-risk-classification
 
 ## Overview of the Analysis
-In this analysis, a logistic regression machine learning model was used to predict the creditworthiness of borrowers. Historical lending data was used to build, train, and test the model. The lending data includes the following features:
+The purpose of this analysis is to predict the creditworthiness of borrowers using a logistic regression machine learning model. Historical lending data was used to build, train, and test the model. The lending data includes the following features:
 - **loan_size**: The amount of the loan given to the borrower.
 - **interest_rate**: The percentage of interest charged on the loan.
 - **borrower_income**: The annual income of the borrower.
