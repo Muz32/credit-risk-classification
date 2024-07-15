@@ -60,10 +60,10 @@ In light of the above, it is deduced that the model performs exceptionally well 
 The dataset was provided by edX Boot Camps LLC.
 
 ## Folder Structure
-### credit-risk-classification(Root Folder)
 ```
+credit-risk-classification (Root Folder)
 └── Credit_Risk/
-  ├── credit_risk_classification.ipynb - Jupyter notebook containing the machine learning model and analysis
-  └── Resources/
-      └── lending_data.csv -CSV file with source data for machine learning model.
+    ├── credit_risk_classification.ipynb - Jupyter notebook containing the machine learning model and analysis
+    └── Resources/
+        └── lending_data.csv - CSV file with source data for machine learning model.
 ```
