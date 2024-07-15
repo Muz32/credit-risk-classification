@@ -55,3 +55,15 @@ For identifying high-risk loans, the model also performs well, with a good preci
 The weighted average metrics are close to 1.00, suggesting that the model handles the imbalance between classes well, given that there are many more healthy loans than high-risk loans.
 
 In light of the above, it is deduced that the model performs exceptionally well in predicting the creditworthiness of new borrowers.  **It is recommended that the trained logistic regression model be used to help in ascertaining whether loans to new borrowers should be approved or rejected.**
+
+## Source of Data
+The dataset was provided by edX Boot Camps LLC.
+
+## Folder Structure
+### credit-risk-classification(Root Folder)
+```
+└── Credit_Risk/
+  ├── credit_risk_classification.ipynb - Jupyter notebook containing the machine learning model and analysis
+  └── Resources/
+      └── lending_data.csv -CSV file with source data for machine learning model.
+```
